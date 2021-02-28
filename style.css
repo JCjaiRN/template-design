@@ -1,0 +1,193 @@
+*{
+	margin: 0%;
+	padding: 0%;
+}
+ul{
+	float: right;
+	list-style-type:none;
+}
+ul li{
+	display: inline-block;
+}
+ul li a {
+	margin-top:50px;
+	font-size: 27px;
+	text-decoration: none;
+	color: black;
+	padding: 15px;
+	border: 1px solid white;
+	transition: 0.3s ease-in-out;
+}
+ ul li a:hover{
+	 background-color: white;
+	 color:tomato;
+ }
+
+ .logo a{
+	 float:left;
+	 font-size: 35px;
+	 font-family:fantasy;
+	 width: auto;
+	 height: auto;
+	 display: inline-block;
+	 text-decoration: none;
+	color: black;
+	padding: 15px;
+	border: 1px solid white;
+ }
+ .logo p{
+	position: absolute;
+	left: -45px;
+	top: -3px;
+     float:left;
+	font-size: 18px;
+	font-family:initial;
+	width: auto;
+	height:30px;
+	display: inline-block;
+	text-decoration: none;
+   color: black;
+   padding: 50px ;
+   border: 1px solid white;
+}
+ 
+
+#login_form{
+	background: rgba(204, 52, 25, 0.904);
+	width: 295px;
+	height: 236px;
+	opacity: 0.8;
+	float: right;
+	margin-top: 10%;
+	margin-right: -520px;
+	padding: 5%;
+	border-top: 2px solid white;
+	font-family: calibri;
+	font-size: 16pt;
+	color: white;
+}
+
+.email, .password{
+	border: 1px solid white;
+	width: 270px;
+	height: 36px;
+	background: white;
+	margin-top: 10%;
+}
+
+#em-png, #pswd-png{
+	width: 40px;
+	height: 40px;
+}
+
+#em, #pswd{
+	margin-left: 0%;
+	float: left;
+	text-align: left;
+	width: 230px;
+	height: 30px;
+	font-family: sans-serif;
+	font-size: 12pt;
+	padding: 2%;
+	border: 0px;
+	color: black;
+}
+
+#em-d,#pswd-d{
+	float: left;
+	width: 40px;
+	background: #e28d26;
+	height: 40px;
+}
+	
+.button_class{
+	margin-top: 10%;
+	width: 282px;
+	height: 40px;
+}
+#lbtn{
+	outline: none;
+	position: absolute;
+	background: none;
+	color: #ccc;
+	width: 282px;
+	height: 40px;
+	border: 1px solid rgb(243, 134, 9);
+	font-size: 18pt;
+	border-radius: 20px;
+	transition: .6s;
+	overflow: hidden;
+}
+#lbtn:hover{
+	background-color:red;
+	color:tomato;
+}
+.content a{
+	background-color: rgb(240, 234, 234);
+	font-size: 32px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	width: 717px;
+	height: 60px;
+	display: inline-block;
+	text-decoration: none;
+   color: black;
+   padding: 50px;
+   border: 1px solid rgb(240, 239, 239);
+   position: absolute;
+	left: 10px;
+	top: 140px;
+}
+.content p{
+		background-color: rgb(245, 237, 237);
+		font-size: 19px;
+		font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		width: 777px;
+		height: 110px;
+		display: inline-block;
+		text-decoration: none;
+	   color: black;
+	   padding: 15px;
+	   border: 1px solid rgb(255, 255, 255);
+	   position: absolute;
+	left: 15px;
+	top: 300px;
+}
+.ynot a{
+	font-size: 47px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	width: 717px;
+	height: 60px;
+	display: inline-block;
+	text-decoration: none;
+   color: black;
+   padding: 50px;
+   position: absolute;
+	left: 10px;
+	top: 460px;
+}
+.ynot img{
+	width: 900px;
+	height: 360ppx;
+	padding: 50px;
+	position: absolute;
+	 left: 10px;
+	 top: 570px;
+
+}
+.rt input{
+	width: 255px;
+	height: 38px;
+	margin-top: 600px;
+	margin-right: -520px;
+	float: right;
+	
+}
+.rt img{margin-top: 610px;
+	margin-right: -560px;
+	float: right;
+	}
+	 
+.otherways{
+	background-color: lemonchiffon;
+	text-align: center;
+}
